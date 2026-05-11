@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import SelectCountry from "@/components/selectCountry";
+import SelectCountry from "@/components/Country";
 
 export default function Form({ countries }: { countries: any[] }) {
   const [country, setCountry] = useState("");
@@ -17,7 +17,7 @@ export default function Form({ countries }: { countries: any[] }) {
       setSuccess("");
       return;
     }
-// test
+    // test
     setError("");
     setSuccess("Profile updated successfully ✅");
 
@@ -31,7 +31,9 @@ export default function Form({ countries }: { countries: any[] }) {
     <form className="space-y-5" onSubmit={handleSubmit}>
       {/* User Name */}
       <div>
-        <label className="block mb-1 font-medium text-gray-700">User Name</label>
+        <label className="block mb-1 font-medium text-gray-700">
+          User Name
+        </label>
         <input
           type="text"
           placeholder="Enter your name"
@@ -72,9 +74,7 @@ export default function Form({ countries }: { countries: any[] }) {
           onChange={(e) => setNationalId(e.target.value)}
           placeholder="Enter your 16-digit ID"
           className={`w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 ${
-            error
-              ? "border-red-500 focus:ring-red-400"
-              : "focus:ring-blue-400"
+            error ? "border-red-500 focus:ring-red-400" : "focus:ring-blue-400"
           }`}
           required
         />
