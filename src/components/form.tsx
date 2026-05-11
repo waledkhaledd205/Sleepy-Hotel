@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import SelectCountry from "@/components/selectCountry";
+import SelectCountry from "@/components/Country";
 
 export default function Form({ countries }: { countries: any[] }) {
   const [country, setCountry] = useState("");
