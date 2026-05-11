@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Deluxe Room",
+    "price": 120,
+    "capacity": 2,
+    "description": "A cozy deluxe room with a king-size bed and balcony view.",
+    "image": "/r1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Family Suite",
+    "price": 200,
+    "capacity": 4,
+    "description": "Spacious suite perfect for families, includes 2 bedrooms and living area.",
+    "image": "/r2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Single Room",
+    "price": 80,
+    "capacity": 1,
+    "description": "Compact single room with all essentials for a comfortable stay.",
+    "image": "/r3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Presidential Suite",
+    "price": 500,
+    "capacity": 4,
+    "description": "Luxurious suite with private pool, jacuzzi, and premium services.",
+    "image": "/r4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Twin Room",
+    "price": 100,
+    "capacity": 8,
+    "description": "Two single beds with modern design, ideal for friends or colleagues.",
+    "image": "/r5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Honeymoon Suite",
+    "price": 300,
+    "capacity": 2,
+    "description": "Romantic suite with jacuzzi and sea view, perfect for couples.",
+    "image": "/r6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Studio Room",
+    "price": 150,
+    "capacity": 4,
+    "description": "Open space with bed, sofa, and kitchenette for longer stays.",
+    "image": "/r7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Luxury Villa",
+    "price": 800,
+    "capacity": 6,
+    "description": "Private villa with garden, pool, and exclusive services.",
+    "image": "/r8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Economy Room",
+    "price": 60,
+    "capacity": 5,
+    "description": "Affordable room with basic amenities for budget travelers.",
+    "image": "/r2.jpg"
+  }
+]
