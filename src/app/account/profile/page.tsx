@@ -1,4 +1,4 @@
-import { country } from "@/Api/country";
+import { country } from "@/api/country";
 import Form from "@/components/form";
 export default async function ProfilePage() {
   const countries = await country();

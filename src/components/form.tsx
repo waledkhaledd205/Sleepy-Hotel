@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import SelectCountry from "@/components/SelectCountry";
+import SelectCountry from "@/components/selectCountry";
 
 export default function Form({ countries }: { countries: any[] }) {
   const [country, setCountry] = useState("");
@@ -17,7 +17,7 @@ export default function Form({ countries }: { countries: any[] }) {
       setSuccess("");
       return;
     }
-
+// test
     setError("");
     setSuccess("Profile updated successfully ✅");
 
